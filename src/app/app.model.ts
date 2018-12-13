@@ -16,3 +16,10 @@ export enum Category {
     SHOPPING = 'SHOPPING', 
     TRAVEL = 'TRAVEL'
 }
+
+export interface AppInterface {
+    title?: string;
+    checked?: boolean;
+    category?: Category;
+    text?: string;
+}
